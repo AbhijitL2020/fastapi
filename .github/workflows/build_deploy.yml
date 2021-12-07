@@ -1,0 +1,17 @@
+name: Build and Deploy Code
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches:
+      - "main"
+
+jobs:
+  job1
+    runs-on: ubuntu-latest
+    steps:
+      - name: pulling git repo, which report is already known. We pushed remember!
+        uses: actions/checkout@v2
+      - name: say hi to whoever
+        run: echo "hellow you"
