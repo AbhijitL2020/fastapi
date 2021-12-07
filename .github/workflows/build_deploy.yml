@@ -8,7 +8,7 @@ on:
       - "main"
 
 jobs:
-  job1
+  job1:
     runs-on: ubuntu-latest
     steps:
       - name: pulling git repo, which report is already known. We pushed remember!
