@@ -45,4 +45,4 @@ app.include_router(vote.router)
 
 @app.get("/")                               # this is a decorator, that changes the function into a path operation
 def root():
-    return {"message": "Hello there, Docker docker World!"}       # python dictionary returned converted as JSON by fastapi
+    return {"message": "Hello there, Heroku World!"}       # python dictionary returned converted as JSON by fastapi
